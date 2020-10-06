@@ -513,10 +513,7 @@ justify-content: center;
 align-items: center;
 
 }
-.clients-list-svg {
-  fill: currentColor;
 
-}
 
 
 .clients-list-item:last-child {
@@ -539,33 +536,38 @@ align-items: center;
    border-color: #2196F3;
    fill:#2196F3;
  }
+ .clients-list-svg {
+  fill: currentColor;
 
-.yaco-list-svg {
+}
+
+.yaco {
  width: 46px;
  height: 50px;
  
+ 
 }
-.tagline-list-svg {
+.tagline {
   width: 40px;
  height: 52px;
 
 }
-.company-list-svg {
+.company {
   width: 40px;
  height: 42px;
 
 }
-.fosterpeters-list-svg {
+.fosterpeters {
   width: 80px;
  height: 42px;
 
 }
-.brand-list-svg {
+.brand {
   width: 60px;
  height: 48px;
 
 }
-.tag-list-svg {
+.tag {
   width: 88px;
  height: 46px;
 
