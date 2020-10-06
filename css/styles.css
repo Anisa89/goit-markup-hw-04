@@ -449,6 +449,7 @@ border-radius: 0px 0px 4px 4px;
 .social-list-link:focus {
   background-color: #2196F3;
   color: #ffffff;
+   
 }
 
 
@@ -513,7 +514,16 @@ justify-content: center;
 align-items: center;
 
 }
+.clients-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+  border-radius: 4px;
+  color: #AFB1B8;
 
+}
 
 
 .clients-list-item:last-child {
@@ -522,12 +532,16 @@ align-items: center;
 
 .clients-list-link svg {
   fill: rgba(175, 177, 184, 1);
+   
  }
  .clients-list-link:hover svg,
  .clients-list-link:focus svg
   {
    fill:#2196F3;
    border-color: #2196F3;
+  
+  color: #AFB1B8 ;
+    
  }
 
  .clients-list-item:hover ,
@@ -535,6 +549,7 @@ align-items: center;
   {
    border-color: #2196F3;
    fill:#2196F3;
+    
  }
  .clients-list-svg {
   fill: currentColor;
@@ -708,7 +723,8 @@ padding-top: 12px;
 .footer-social-list-svg {
   width: 20px;
   height: 20px;
-  fill:#AFB1B8;
+  fill: #ffffff;
+  
   
 }
 
@@ -919,7 +935,7 @@ padding: 6px 22px;
 border: none;
 border-radius: 4px;
 min-width: 73px;
-    height: 50px;
+    
     padding: 6px 22px;
     cursor: pointer;
 
@@ -973,10 +989,11 @@ border: 1px solid #EEEEEE;
 box-sizing: border-box;
 cursor: pointer;
 }
-.works-contant:hover {
+.item-works:hover {
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 cursor: pointer;
 }
+
 
 
 .projects-name {
